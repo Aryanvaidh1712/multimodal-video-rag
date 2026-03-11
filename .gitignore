@@ -1,0 +1,25 @@
+# Environments
+venv/
+env/
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# Data & Media Folders (Do not upload raw course data)
+videos/
+audios/
+jsons/
+
+# Model & Vector Data
+*.joblib
+embeddings.joblib
+
+# OS Files
+.DS_Store
+
+
+# Temporary execution files
+prompt.txt
+response.txt
